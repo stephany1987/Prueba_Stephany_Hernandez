@@ -1,0 +1,17 @@
+<!-- Vista Ficha -->
+<div class="container">
+<div class="row">
+    <div class="col-" id="ficha">
+<!--*ngfor que muestra los datos del arreglo personas-->
+        <tr *ngFor="let persona of personas">
+            <h2>{{persona.nombre}} {{persona.apellido}}</h2>
+        <br>
+        <p><strong>Edad:</strong>{{persona.edad}}</p>
+        <p><strong>Teléfono:</strong> {{persona.telefono}}</p>
+        <p><strong>Correo:</strong> {{persona.Correo}}  </p>     
+        </tr>
+<!--End *ngfor que muestra los datos del arreglo personas-->
+    </div>
+</div>
+</div>
+<!--End Vista Ficha -->

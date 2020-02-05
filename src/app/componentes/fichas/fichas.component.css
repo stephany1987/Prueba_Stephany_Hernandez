@@ -1,0 +1,11 @@
+/** Styles Ficha **/
+#ficha tr{
+    padding:15px;
+    background:#f2f2f2;
+    border-radius:5px;
+    float:left;
+    margin:1%;
+    min-width:330px;
+}
+
+/** End Styles Ficha **/

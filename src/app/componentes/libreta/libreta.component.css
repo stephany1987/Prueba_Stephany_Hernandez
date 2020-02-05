@@ -1,0 +1,19 @@
+body{background-color:#F6FAFB!important;}
+.bottom-container,form{text-align:center;}
+form{font-family: 'Lato', sans-serif;padding:30px;margin:60px auto;background: rgb(45,50,70);
+background: linear-gradient(90deg, rgba(45,50,70,1) 0%, rgba(36,68,89,1) 35%, rgba(85,146,165,1) 100%);
+border-radius:5px;
+-webkit-box-shadow: 10px 10px 28px -2px rgba(0,0,0,0.37);
+-moz-box-shadow: 10px 10px 28px -2px rgba(0,0,0,0.37);
+box-shadow: 10px 10px 28px -2px rgba(0,0,0,0.37);}
+form h1{text-align:left;}
+form h1, form p, #check, form a, form h3{color:#fff!important;}
+input[type="text"],input[type="number"],input[type="email"]{width: 90%;border-radius: 3px;line-height: 30px;margin-bottom:20px;padding:5px;}
+.bottom-container a,input[type="submit"]{width: 90%;background: #13826F;border: 0;line-height: 40px;margin-bottom: 20px;color:#fff;}
+.bottom-container a:hover,input[type="submit"]:hover{color:#fff!important;}
+#check{margin-left:5%;width:50%;float:left;text-align:left;}
+.bottom-container h3{margin-top:20px;padding-top:20px;}
+.bottom-container h3::before{display: inline-block;content: "";border-top: .1rem solid white;width: 15rem;
+margin: 0 1rem;transform: translateY(-1rem);position: absolute;margin-left: 4%;margin-top: -10px;}
+/*Media Queries*/
+
